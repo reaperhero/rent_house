@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SearchBar extends StatefulWidget {
-  final bool? shwoLocation;
+  final bool? showLocation;
   final Function? goBackCallback;
   final String? inputValue;
   final String? defaultInputValue;
@@ -12,7 +12,7 @@ class SearchBar extends StatefulWidget {
 
   const SearchBar(
       {Key? key,
-        this.shwoLocation,
+        this.showLocation,
         this.goBackCallback,
         this.inputValue,
         this.defaultInputValue,
@@ -47,7 +47,7 @@ class _SearchBarState extends State<SearchBar> {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        if (widget.shwoLocation != null)
+        if (widget.showLocation != null)
           GestureDetector(
             onTap: () {},
             child: Row(

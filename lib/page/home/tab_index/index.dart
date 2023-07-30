@@ -19,9 +19,8 @@ class _TabIndexState extends State<TabIndex> {
     return Scaffold(
       appBar: AppBar(
         title: const SearchBar(
-          shwoLocation: true,
+          showLocation: true,
         ),
-
       ),
       body: ListView(
         children: const [

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:rent_house/page/home/tab_index/index.dart';
+import 'package:rent_house/page/home/tab_search/index.dart';
 
 List<Widget> tabViewList = [
   const TabIndex(),
-  const TabIndex(),
+  const IndexSearch(),
   const TabIndex(),
   const TabIndex(),
 ];
