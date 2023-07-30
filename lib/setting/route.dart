@@ -5,7 +5,9 @@ import '../page/home/home.dart';
 import '../page/login/login.dart';
 import '../page/not_found/page.dart';
 import '../page/register/register.dart';
+import '../page/room_add/index.dart';
 import '../page/room_detail/index.dart';
+import '../page/room_manage/index.dart';
 import '../page/setting/index.dart';
 
 class Routes {
@@ -45,11 +47,15 @@ class Routes {
         return const SettingPage();
       });
 
-  // static final Handler _roomManageHanlder = Handler(
-  //     handlerFunc: (BuildContext? context, Map<String, List<String>> params) {
-  //       return RoomManagerPage();
-  //     });
+  static final Handler _roomManageHanlder = Handler(
+      handlerFunc: (BuildContext? context, Map<String, List<String>> params) {
+        return const RoomManagerPage();
+      });
 
+  static final Handler _roomAddHanlder = Handler(
+      handlerFunc: (BuildContext? context, Map<String, List<String>> params) {
+        return const RoomAddPage();
+      });
 
   static final Handler _roomDetailHandler = Handler(
       handlerFunc: (BuildContext? context, Map<String, List<String>> params) {
@@ -65,8 +71,8 @@ class Routes {
     router.define(login, handler: _loginHandler);
     router.define(register, handler: _registerHanlder);
     router.define(setting, handler: _settingHanlder);
-    // router.define(roomManage, handler: _roomManageHanlder);
-    // router.define(roomAdd, handler: _roomAddHanlder);
+    router.define(roomManage, handler: _roomManageHanlder);
+    router.define(roomAdd, handler: _roomAddHanlder);
     router.define(roomDetail, handler: _roomDetailHandler);
     router.notFoundHandler = _notFoundHandler;
   }
