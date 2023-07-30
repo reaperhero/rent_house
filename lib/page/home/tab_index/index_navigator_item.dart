@@ -36,7 +36,6 @@ class IndexNavigator extends StatelessWidget {
   }
 }
 
-//准备数据:title,image
 class IndexNavigatorItem {
   final String title;
   final String imageUri;

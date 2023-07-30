@@ -1,16 +1,14 @@
 # rent_house
 
-A new Flutter project.
+租房项目
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+>  flutter --version    
 
-A few resources to get you started if this is your first Flutter project:
+Flutter 3.7.8 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 90c64ed42b (4 months ago) • 2023-03-21 11:27:08 -0500
+Engine • revision 9aa7816315
+Tools • Dart 2.19.5 • DevTools 2.20.1
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 
