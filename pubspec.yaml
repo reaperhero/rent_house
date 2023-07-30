@@ -63,9 +63,27 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - static/images/home_index_navigator_map.png
+    - static/images/home_index_navigator_rent.png
+    - static/images/home_index_navigator_share.png
+    - static/images/home_index_navigator_total.png
+    - static/images/home_index_recommend_1.png
+    - static/images/home_index_recommend_2.png
+    - static/images/home_index_recommend_3.png
+    - static/images/home_index_recommend_4.png
+    - static/icons/widget_search_bar_map.png
+
+    - static/images/home_profile_contract.png
+    - static/images/home_profile_favor.png
+    - static/images/home_profile_house.png
+    - static/images/home_profile_id.png
+    - static/images/home_profile_message.png
+    - static/images/home_profile_record.png
+    - static/images/home_profile_user.png
+    - static/images/home_profile_order.png
+    - static/images/home_profile_wallet.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

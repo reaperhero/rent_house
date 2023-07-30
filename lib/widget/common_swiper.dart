@@ -30,8 +30,8 @@ class CommonSwiper extends StatelessWidget {
         autoplay: true,
         itemCount: images.length,
         // scrollDirection: Axis.vertical,
-        pagination: SwiperPagination(alignment: Alignment.bottomCenter),
-        control: SwiperControl(),
+        pagination: const SwiperPagination(alignment: Alignment.bottomCenter),
+        control: const SwiperControl(),
       ),
     );
   }

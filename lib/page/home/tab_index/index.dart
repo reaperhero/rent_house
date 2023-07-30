@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:rent_house/page/home/tab_index/index_navigator_item.dart';
 import 'package:rent_house/widget/common_swiper.dart';
 
 import '../../../widget/search_bar.dart';
+import 'index_recommend.dart';
 
 class TabIndex extends StatefulWidget {
   const TabIndex({Key? key}) : super(key: key);
@@ -22,7 +24,9 @@ class _TabIndexState extends State<TabIndex> {
       ),
       body: ListView(
         children: const [
-          CommonSwiper()
+          CommonSwiper(),
+          IndexNavigator(),
+          IndexRecomment()
         ],
       ),
     );
