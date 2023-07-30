@@ -1,4 +1,7 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:rent_house/widget/common_swiper.dart';
+
+import '../../../widget/search_bar.dart';
 
 class TabIndex extends StatefulWidget {
   const TabIndex({Key? key}) : super(key: key);
@@ -10,6 +13,18 @@ class TabIndex extends StatefulWidget {
 class _TabIndexState extends State<TabIndex> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder(child: Text("sadsa"),);
+    return Scaffold(
+      appBar: AppBar(
+        title: const SearchBar(
+          shwoLocation: true,
+        ),
+
+      ),
+      body: ListView(
+        children: const [
+          CommonSwiper()
+        ],
+      ),
+    );
   }
 }
