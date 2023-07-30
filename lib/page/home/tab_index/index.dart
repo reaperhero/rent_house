@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rent_house/page/home/tab_index/index_info.dart';
 import 'package:rent_house/page/home/tab_index/index_navigator_item.dart';
 import 'package:rent_house/widget/common_swiper.dart';
 
@@ -26,7 +27,8 @@ class _TabIndexState extends State<TabIndex> {
         children: const [
           CommonSwiper(),
           IndexNavigator(),
-          IndexRecomment()
+          IndexRecomment(),
+          Info()
         ],
       ),
     );
