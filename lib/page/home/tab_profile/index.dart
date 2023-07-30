@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:rent_house/page/home/tab_profile/tab_profile_header.dart';
 
+import '../tab_index/index_info.dart';
+import 'advertisement.dart';
+import 'function_button.dart';
+
 class TabProfile extends StatelessWidget {
   const TabProfile({Key? key}) : super(key: key);
 
@@ -25,11 +29,11 @@ class TabProfile extends StatelessWidget {
       body: ListView(
         children: const [
           TabProfileHeader(),
-          // FunctionButton(),
-          // Advertisement(),
-          // Info(
-          //   showTitle: true,
-          // ),
+          FunctionButton(),
+          Advertisement(),
+          Info(
+            showTitle: true,
+          ),
         ],
       ),
     );

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rent_house/model/inf_item.dart';
+import 'package:rent_house/model/info_item.dart';
 
 class Info extends StatelessWidget {
   final bool showTitle;
